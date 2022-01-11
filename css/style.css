@@ -1,0 +1,267 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background: #bbbbbb;
+    padding: 20px 0;
+    
+}
+
+.caixa{
+    
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+  
+
+
+nav {
+   
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin-left: 15px;
+    
+}
+
+.links a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    
+    font-size: 25px;
+}
+
+.links a:hover{
+    color: rgb(105, 63, 4);
+    text-decoration: underline;
+}
+
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+  
+    padding: 50px 0;
+}
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    box-sizing: border-box;
+    padding: 30px 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produtos li:hover{
+    border-color: rgb(105, 63, 4);
+}
+
+.produtos li:hover h2{
+    font-size: 40px;
+}
+
+.produtos li:active{
+    border-color: green
+}
+
+.preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.descricao{
+    font-size: 18px;
+}
+
+footer{
+    text-align: center;
+    background: url("../img/bg.jpg");
+    padding: 40px 0;
+}
+
+footer p{
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+main {
+    
+}
+
+.contatos{
+    margin: 40px 0;
+    
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.input-padrao{
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    width: 50%;
+    
+}
+
+.check{
+    margin: 20px 0;
+}
+
+#msgsub{
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    transition: 2s all;
+    cursor: pointer;
+}
+
+#msgsub:hover{
+    background: darkorange;
+    transform: scale(1.2);
+    
+}
+
+table{
+    margin: 20px 0 40px;
+    
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 8px 15px;
+}
+
+/* css da pagina inicial */
+
+.img-banner{
+    width: 100%;
+}
+
+.principal{
+    padding: 3em 0;
+    background: #fefefe;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.principal p{
+    margin: 0 0 1em;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.beneficios{
+    padding: 3em 0;
+    background: #888888;
+    
+}
+
+.conteudo-ben{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-ben{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.itens{
+    line-height: 1.5;
+}
+
+
+
+.itens:first-child {
+    font-weight: bold;
+}
+
+.img-ben{
+    width: 60%;
+    
+}
+
+.utensilios{
+    width: 120px;
+    float: left;
+    margin: 0 20px;
+}
+
+.map{
+    padding: 3em 0;
+    background: linear-gradient(#fefefe, #888888);
+    margin: 0 auto;
+
+}
+
+.mapa-conteudo{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.map p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.video{
+    width: 560px;
+    margin: 2em auto;
+}
+
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .conteudo-ben, .mapa-conteudo, .video {
+        width: auto;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+}
+
